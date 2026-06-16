@@ -1,0 +1,49 @@
+```json
+{
+  "name": "@clearedink/mcp",
+  "version": "0.1.1",
+  "description": "Cleared MCP server for async AI video job pricing, status, result retrieval, and MP4 downloads.",
+  "type": "module",
+  "bin": {
+    "clearedink-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "x402",
+    "ai-video",
+    "video-generation",
+    "wan",
+    "cleared"
+  ],
+  "homepage": "https://cleared.ink",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clearedink/mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clearedink/mcp/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+```
